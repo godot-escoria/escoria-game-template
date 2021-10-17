@@ -1,3 +1,12 @@
+## [4.0.0-alpha.3](https://github.com/godot-escoria/escoria-game-template/compare/v0.0.0...v4.0.0-alpha.3) (2021-10-17)
+
+
+### Bug Fixes
+
+* Added basic project ([6b9ae86](https://github.com/godot-escoria/escoria-game-template/commit/6b9ae86b50cabc6b71aec9e320c7890db1fe6e3c))
+
+
+
 ## [4.0.0-alpha.2](https://github.com/godot-escoria/escoria-game-template/compare/v0.0.0...v4.0.0-alpha.2) (2021-10-17)
 
 
