@@ -609,3 +609,47 @@ _global_script_class_icons={
 [application]
 
 config/name="Escoria Game Template"
+run/main_scene="res://addons/escoria-core/game/main_scene.tscn"
+
+[audio]
+
+default_bus_layout="res://addons/escoria-core/default_bus_layout.tres"
+
+[autoload]
+
+escoria="*res://addons/escoria-core/game/escoria.tscn"
+
+[editor_plugins]
+
+enabled=PoolStringArray( "res://addons/escoria-core/plugin.cfg" )
+
+[escoria]
+
+main/game_version=""
+main/game_start_script=""
+main/force_quit=true
+main/command_directories=[ "res://addons/escoria-core/game/core-scripts/esc/commands" ]
+main/text_lang="en_US"
+main/voice_lang="en_US"
+main/savegames_path="user://saves/"
+main/settings_path="user://"
+debug/terminate_on_warnings=false
+debug/terminate_on_errors=true
+debug/development_lang="en"
+debug/log_level="ERROR"
+ui/tooltip_follows_mouse=true
+ui/dialogs_chooser=""
+ui/default_dialog_scene=""
+ui/game_scene=""
+ui/items_autoregister_path="res://game/items"
+ui/default_transition="curtain"
+ui/transition_paths=[ "res://addons/escoria-core/game/scenes/transitions/shaders/" ]
+sound/master_volume=1
+sound/music_volume=1
+sound/sfx_volume=1
+sound/speech_volume=1
+sound/speech_enabled=1
+sound/speech_folder="res://speech"
+sound/speech_extension="ogg"
+platform/skip_cache=false
+platform/skip_cache.mobile=true
