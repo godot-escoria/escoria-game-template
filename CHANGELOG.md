@@ -1,3 +1,12 @@
+## [4.0.0-alpha.7](https://github.com/godot-escoria/escoria-game-template/compare/v0.0.0...v4.0.0-alpha.7) (2021-10-28)
+
+
+### Bug Fixes
+
+* Fixed assetlib id ([af24dba](https://github.com/godot-escoria/escoria-game-template/commit/af24dba097d5503550a0000bf62a6e419bc7f25a))
+
+
+
 ## [4.0.0-alpha.4](https://github.com/godot-escoria/escoria-game-template/compare/v0.0.0...v4.0.0-alpha.4) (2021-10-17)
 
 
