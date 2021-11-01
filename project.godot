@@ -154,18 +154,23 @@ _global_script_classes=[ {
 "language": "GDScript",
 "path": "res://addons/escoria-core/game/core-scripts/esc/types/esc_dialog.gd"
 }, {
+"base": "Control",
+"class": "ESCDialogManager",
+"language": "GDScript",
+"path": "res://addons/escoria-core/game/scenes/dialogs/esc_dialog_manager.gd"
+}, {
 "base": "ESCStatement",
 "class": "ESCDialogOption",
 "language": "GDScript",
 "path": "res://addons/escoria-core/game/core-scripts/esc/types/esc_dialog_option.gd"
 }, {
-"base": "Node",
+"base": "Control",
 "class": "ESCDialogOptionsChooser",
 "language": "GDScript",
 "path": "res://addons/escoria-core/game/scenes/dialogs/esc_dialog_options_chooser.gd"
 }, {
-"base": "ResourcePreloader",
-"class": "ESCDialogsPlayer",
+"base": "Node",
+"class": "ESCDialogPlayer",
 "language": "GDScript",
 "path": "res://addons/escoria-core/game/scenes/dialogs/esc_dialog_player.gd"
 }, {
@@ -215,6 +220,16 @@ _global_script_classes=[ {
 "path": "res://addons/escoria-core/game/scenes/inventory/inventory_ui.gd"
 }, {
 "base": "TextureButton",
+"class": "ESCInventoryButton",
+"language": "GDScript",
+"path": "res://addons/escoria-core/ui_library/inventory/esc_inventory_button.gd"
+}, {
+"base": "Control",
+"class": "ESCInventoryContainer",
+"language": "GDScript",
+"path": "res://addons/escoria-core/ui_library/inventory/esc_inventory_container.gd"
+}, {
+"base": "Reference",
 "class": "ESCInventoryItem",
 "language": "GDScript",
 "path": "res://addons/escoria-core/game/core-scripts/esc_inventory_item.gd"
@@ -534,9 +549,10 @@ _global_script_class_icons={
 "ESCCondition": "",
 "ESCController": "",
 "ESCDialog": "",
+"ESCDialogManager": "",
 "ESCDialogOption": "",
 "ESCDialogOptionsChooser": "",
-"ESCDialogsPlayer": "",
+"ESCDialogPlayer": "",
 "ESCDirectionAngle": "",
 "ESCEvent": "",
 "ESCEventManager": "",
@@ -546,7 +562,9 @@ _global_script_class_icons={
 "ESCGroup": "",
 "ESCInputsManager": "",
 "ESCInventory": "",
-"ESCInventoryItem": "res://addons/escoria-core/design/esc_inventory_item.svg",
+"ESCInventoryButton": "",
+"ESCInventoryContainer": "",
+"ESCInventoryItem": "",
 "ESCInventoryManager": "",
 "ESCItem": "res://addons/escoria-core/design/esc_item.svg",
 "ESCLocation": "res://addons/escoria-core/design/esc_location.svg",
@@ -638,8 +656,6 @@ debug/terminate_on_errors=true
 debug/development_lang="en"
 debug/log_level="ERROR"
 ui/tooltip_follows_mouse=true
-ui/dialogs_chooser=""
-ui/default_dialog_scene=""
 ui/game_scene=""
 ui/items_autoregister_path="res://game/items"
 ui/default_transition="curtain"
@@ -653,3 +669,8 @@ sound/speech_folder="res://speech"
 sound/speech_extension="ogg"
 platform/skip_cache=false
 platform/skip_cache.mobile=true
+debug/enable_room_selector=false
+debug/room_selector_room_dir=""
+ui/default_dialog_type=""
+ui/inventory_item_size=Vector2( 72, 72 )
+ui/dialog_managers=[  ]
