@@ -1,3 +1,12 @@
+## [4.0.0-alpha.23](https://github.com/godot-escoria/escoria-game-template/compare/v0.0.0...v4.0.0-alpha.23) (2021-11-18)
+
+
+### Bug Fixes
+
+* Fixed items path and default dialog type ([facb86b](https://github.com/godot-escoria/escoria-game-template/commit/facb86babbae881d7c876d674a94e4b9ff796290))
+
+
+
 ## [4.0.0-alpha.8](https://github.com/godot-escoria/escoria-game-template/compare/v0.0.0...v4.0.0-alpha.8) (2021-11-01)
 
 
